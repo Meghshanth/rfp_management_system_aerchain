@@ -1,6 +1,4 @@
-// /backend/src/db/config.js (ES Module Format)
 
-// 1. Load environment variables. This is the simple way to load a root .env file.
 import 'dotenv/config';
 import pkg from 'pg';
 const { Pool } = pkg; // Destructure Pool from the imported package

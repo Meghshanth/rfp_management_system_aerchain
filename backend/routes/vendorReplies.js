@@ -1,4 +1,3 @@
-// /backend/src/routes/vendorReplies.js
 import express from "express";
 import fetch from "node-fetch";
 import db from "../db/config.js";

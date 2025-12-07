@@ -7,23 +7,10 @@ import {
     Grid,
     Chip,
     Button,
-    Divider,
     CircularProgress,
-    Alert,
-    Table,
-    TableBody,
-    TableCell,
-    TableContainer,
-    TableHead,
-    TableRow,
-    Paper,
-    Accordion,
-    AccordionSummary,
-    AccordionDetails
+    Alert
 } from "@mui/material";
 import VisibilityIcon from "@mui/icons-material/Visibility";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import SmartToyIcon from "@mui/icons-material/SmartToy";
 import { useNavigate } from "react-router-dom";
 
 export default function RfpList() {

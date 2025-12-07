@@ -8,7 +8,6 @@ import {
     Stack,
     Paper,
     Avatar,
-    Alert,
     CircularProgress,
 } from "@mui/material";
 import SendIcon from "@mui/icons-material/Send";
