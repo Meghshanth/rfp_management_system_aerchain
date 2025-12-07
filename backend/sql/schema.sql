@@ -1,7 +1,7 @@
 -- 1. ENUM for RFP Status (Required for workflow tracking: DRAFT, SENT, CLOSED)
 CREATE TYPE "RfpStatus" AS ENUM ('DRAFT', 'SENT', 'CLOSED');
 
-DROP TABLE vendors, rfp_vendors, rfps, proposals, processed_mailpit, rfp_recommendations;
+--DROP TABLE vendors, rfp_vendors, rfps, proposals, processed_mailpit, rfp_recommendations;
 ----------------------------------------------------------------------
 -- 2. VENDOR Table (Your requested 4-column structure)
 ----------------------------------------------------------------------
